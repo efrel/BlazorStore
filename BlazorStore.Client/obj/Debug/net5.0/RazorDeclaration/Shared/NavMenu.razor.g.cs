@@ -90,7 +90,7 @@ using BlazorStore.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 29 "C:\Users\Programmer II\Documents\Projects\EDteam\BlazorStore\BlazorStore.Client\Shared\NavMenu.razor"
+#line 37 "C:\Users\Programmer II\Documents\Projects\EDteam\BlazorStore\BlazorStore.Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
