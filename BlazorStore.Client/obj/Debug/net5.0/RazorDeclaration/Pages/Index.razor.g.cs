@@ -13,71 +13,71 @@ namespace BlazorStore.Client.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\Programmer II\Documents\Projects\EDteam\BlazorStore\BlazorStore.Client\_Imports.razor"
+#line 1 "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Programmer II\Documents\Projects\EDteam\BlazorStore\BlazorStore.Client\_Imports.razor"
+#line 2 "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Programmer II\Documents\Projects\EDteam\BlazorStore\BlazorStore.Client\_Imports.razor"
+#line 3 "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\Programmer II\Documents\Projects\EDteam\BlazorStore\BlazorStore.Client\_Imports.razor"
+#line 4 "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\Programmer II\Documents\Projects\EDteam\BlazorStore\BlazorStore.Client\_Imports.razor"
+#line 5 "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\Programmer II\Documents\Projects\EDteam\BlazorStore\BlazorStore.Client\_Imports.razor"
+#line 6 "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\Programmer II\Documents\Projects\EDteam\BlazorStore\BlazorStore.Client\_Imports.razor"
+#line 7 "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\Programmer II\Documents\Projects\EDteam\BlazorStore\BlazorStore.Client\_Imports.razor"
+#line 8 "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\Programmer II\Documents\Projects\EDteam\BlazorStore\BlazorStore.Client\_Imports.razor"
+#line 9 "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/_Imports.razor"
 using BlazorStore.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\Programmer II\Documents\Projects\EDteam\BlazorStore\BlazorStore.Client\_Imports.razor"
-using BlazorStore.Client.Shared;
+#line 11 "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/_Imports.razor"
+using Shared;
 
 #line default
 #line hidden
@@ -90,6 +90,23 @@ using BlazorStore.Client.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 23 "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/Pages/Index.razor"
+ 
+    List<News> listNews = new List<News>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await listNews.Add(new News(){
+            Description = "How to change your PlayStation Network username",
+            Image = "https://cdn.vox-cdn.com/thumbor/_nYgVAAWXBb73W3gvIQQ37rlaxo=/0x0:2040x1148/920x613/filters:focal(857x411:1183x737):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70613943/vpavic_4261_20201023_0058.0.jpg",
+            UriBuilder = "https://cdn.vox-cdn.com/thumbor/_nYgVAAWXBb73W3gvIQQ37rlaxo=/0x0:2040x1148/920x613/filters:focal(857x411:1183x737):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70613943/vpavic_4261_20201023_0058.0.jpg"
+        });
+    }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

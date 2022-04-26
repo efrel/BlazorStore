@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Programmer II\\Documents\\Projects\\EDteam\\BlazorStore\\BlazorStore.Client\\BlazorStore.Client.csproj": {}
+    "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/BlazorStore.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Programmer II\\Documents\\Projects\\EDteam\\BlazorStore\\BlazorStore.Client\\BlazorStore.Client.csproj": {
+    "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/BlazorStore.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Programmer II\\Documents\\Projects\\EDteam\\BlazorStore\\BlazorStore.Client\\BlazorStore.Client.csproj",
+        "projectUniqueName": "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/BlazorStore.Client.csproj",
         "projectName": "BlazorStore.Client",
-        "projectPath": "C:\\Users\\Programmer II\\Documents\\Projects\\EDteam\\BlazorStore\\BlazorStore.Client\\BlazorStore.Client.csproj",
-        "packagesPath": "C:\\Users\\Programmer II\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Programmer II\\Documents\\Projects\\EDteam\\BlazorStore\\BlazorStore.Client\\obj\\",
+        "projectPath": "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/BlazorStore.Client.csproj",
+        "packagesPath": "/home/efli95/.nuget/packages/",
+        "outputPath": "/home/efli95/Projects/EDteam/BlazorStore/BlazorStore.Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Programmer II\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/efli95/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/efli95/Projects/EDteam/BlazorStore/shared/shared.csproj": {
+                "projectPath": "/home/efli95/Projects/EDteam/BlazorStore/shared/shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -37,21 +39,21 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[6.0.0, )"
             },
             "System.Net.Http.Json": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -66,8 +68,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-              "version": "[5.0.12, 5.0.12]"
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.4, 6.0.4]"
             }
           ],
           "frameworkReferences": {
@@ -75,12 +77,64 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
         "browser-wasm": {
           "#import": []
+        }
+      }
+    },
+    "/home/efli95/Projects/EDteam/BlazorStore/shared/shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/efli95/Projects/EDteam/BlazorStore/shared/shared.csproj",
+        "projectName": "shared",
+        "projectPath": "/home/efli95/Projects/EDteam/BlazorStore/shared/shared.csproj",
+        "packagesPath": "/home/efli95/.nuget/packages/",
+        "outputPath": "/home/efli95/Projects/EDteam/BlazorStore/shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/efli95/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }
